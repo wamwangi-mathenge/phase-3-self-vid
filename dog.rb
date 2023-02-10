@@ -13,7 +13,7 @@ class Dog
     end
 
     def get_adopted(owner_name)
-        self.bark # Calls the Dog#bark method. Dog barks when they get adopted
+        bark # Calls the Dog#bark method. Dog barks when they get adopted
         self.owner = owner_name
     end
 
